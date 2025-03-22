@@ -5,6 +5,8 @@ import tabula
 import pandas as pd
 from flask import Flask
 
+app = Flask(__name__)
+
 
 def ocr_pdf(input_pdf_path, output_pdf_path):
     try:
